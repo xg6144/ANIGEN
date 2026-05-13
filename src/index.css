@@ -1,0 +1,46 @@
+:root {
+  font-family: "Avenir Next", Avenir, "Segoe UI", sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color: #172033;
+  --button-primary-bg: #2563eb;
+  --button-primary-hover-bg: #1d4ed8;
+  --button-primary-shadow: rgba(37, 99, 235, 0.26);
+  --button-primary-shadow-strong: rgba(29, 78, 216, 0.34);
+  --button-primary-focus: rgba(37, 99, 235, 0.22);
+  --button-primary-disabled-bg: #93c5fd;
+  --button-primary-disabled-color: rgba(255, 255, 255, 0.92);
+  --button-secondary-color: #1d4ed8;
+  --button-secondary-border: rgba(37, 99, 235, 0.18);
+  --button-secondary-border-strong: rgba(37, 99, 235, 0.32);
+  --button-secondary-bg: rgba(255, 255, 255, 0.94);
+  --button-secondary-bg-hover: rgba(239, 246, 255, 0.98);
+  --button-secondary-focus: rgba(37, 99, 235, 0.16);
+  --button-secondary-shadow: rgba(37, 99, 235, 0.14);
+  background:
+    radial-gradient(circle at top left, rgba(255, 211, 182, 0.55), transparent 24%),
+    linear-gradient(180deg, #f6efe8 0%, #edf3f8 100%);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+html,
+body,
+#root {
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+body {
+  margin: 0;
+}
